@@ -1,0 +1,31 @@
+.figure-image{
+    /* width: 25%; */
+    box-shadow: 0px 0px 24px 21px #6703d2;
+    padding: 0;
+    margin: 40px;
+}
+.figure-image>img{
+    width: 375px;
+}
+/* 
+.king-About::-webkit-scrollbar{
+    display: none;
+}
+.figuree>img{
+    filter: blur(4px);
+}
+.fi{
+    width: 15%;
+    box-shadow: 0px 0px 24px 21px #6703d2;
+    margin: 22px auto;
+}  */
+figure{
+    z-index: 9999;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description{
+    color: white;
+}

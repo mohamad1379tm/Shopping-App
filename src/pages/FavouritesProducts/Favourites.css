@@ -1,0 +1,19 @@
+.red{
+    color: rgb(255, 0, 0) !important;
+} 
+.favouritemap{
+    padding-top: 120px;
+    overflow: scroll;
+    height: 100%;
+}
+.favouritemap>.product-fild{
+    margin: 50px;
+}
+.h21{
+    text-align: center;
+    margin-top: 20px;
+    color: #5a0fb0;
+}
+.favouritemap::-webkit-scrollbar{
+    display: none;
+}

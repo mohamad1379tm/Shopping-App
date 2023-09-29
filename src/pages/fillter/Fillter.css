@@ -1,0 +1,67 @@
+*{
+    user-select: none;
+}
+.Li{
+    width: 200px;
+    border: 2px solid #762ec0;
+    border-radius: 33px;
+    padding: 15px;
+    align-items: center;
+    margin: 17px;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+} 
+.Mobile{
+    /* background: #0f0c29; */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    background: linear-gradient(to right, #24243eb0, #302b63c2, #0f0c29c7);
+}
+.DeskTop{
+    border-right: 1px solid #6000ce;
+}
+.Li:active{
+    transform: scale(.9);
+}
+.css-eg0mwd-MuiSlider-thumb{
+    color: #9c44f5;
+}
+.css-187mznn-MuiSlider-root{
+    width: 50% !important;
+    color: #bad8d9 !important;
+}
+.iconremoe{
+    width: 4%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+.iconFillter{
+    font-size: 30px !important;
+}
+.Menu{
+    letter-spacing: 3px;
+    line-height: 2;
+    color: #a5a5a5;
+}
+.removeTop{
+    transform: translateY(-779px);
+    z-index: 999;
+}
+
+.Show{
+    transform: translateY(0);
+    z-index: 999999999999999999;
+    transition: 1s;
+}
+
+.remove{
+    transition: 1s;
+    transform: translateY(779px);
+    z-index: 999;
+}
+span{
+    cursor: pointer;
+}

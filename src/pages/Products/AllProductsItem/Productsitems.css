@@ -1,0 +1,82 @@
+.product-fild{
+    padding: 40px 0;
+    border-radius: 10px 80px 10px 10px;
+    margin-bottom: 56px !important;
+    width: 210px !important;
+    height: 291px !important;
+    background: #e8e8e8e8;
+    margin-bottom: 190px !important;
+}
+
+.figure{
+    border-radius: 16px;
+    background-color: #fff;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    bottom: 41%;
+    width: 66%;
+    height: 73%;
+    border-radius: 50px 20px 0 20px;
+    overflow: hidden;
+    transform: skewY(40deg);
+    box-shadow: 0 1px 0 #00000020 ,-1px 0 0 #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.figure>img{
+    width: 95%;
+    z-index: 1;
+    transform: skewY(-40deg);
+    padding: 25px 0 0 0;
+}
+
+
+.icon{
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+}
+.icon>span , .icon>a{
+    background-color: #00000030;
+    display: flex;
+    width: 40px;
+    align-items: center;
+    height: 40px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 20px 5px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    justify-content: center;
+}
+.icon>span:hover , .icon>a:hover , .AddToCart:hover{
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+.item-product{
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+    position: absolute;
+}
+h4{
+    text-align: end;
+    color: #495057;
+}
+.AddToCart{
+    border-radius: 7px;
+    border: 1px solid #6000ce;
+    background: transparent;
+}
+.AddToCart:active , .icon>span:active{
+    transform: scale(.9);
+}
+.redw{
+    color: red !important;
+}
